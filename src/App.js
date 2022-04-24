@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.scss';
+import HeaderBottom from './component/HeaderBottom/HeaderBottom';
+import HeaderTop from './component/HeaderTop/HeaderTop';
+import Products from './pages/Products/Products';
+import Overview from './pages/Overview/Overview';
+import Invoices from './pages/Invoices/Invoices';
+import Clients from './pages/Clients/Clients';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="top-bar">
+      </div>
+      <div className="container">
+        <HeaderTop />
+
+        <Router>
+          <HeaderBottom />
+          <Routes>
+            <Route path="/overview" element={< Overview />} />
+            <Route path="/" element={< Products />} />
+            <Route path="/clients" element={< Clients />} />
+            <Route path="/invoices" element={< Invoices />} />
+          </Routes>
+        </Router>
+      </div>
+
+
+    </Fragment>
   );
 }
 
