@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from '../../component/Button/Button';
 import './Products.scss';
 import funnel_icon from '../../img/funnel.svg';
@@ -12,13 +12,61 @@ import world_icon from '../../img/world.svg';
 import ProductList from '../../component/ProductList/ProductList';
 
 export default function Products() {
-    const products = [
+    const [products, setProducts] = useState([
         {
             id: 1,
             name: 'Managed WordPress Hosting',
             plan: '5',
             status: 'Active',
-            icon: server_icon
+            icon: server_icon,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
         {
             id: 2,
@@ -56,7 +104,7 @@ export default function Products() {
             icon: operator_icon
         },
 
-    ];
+    ]);
     return (
         <div className='products'>
             <div className="products__header">
@@ -70,7 +118,7 @@ export default function Products() {
             </div>
 
             <div className="products__content">
-                <ProductList products={products} />
+                <ProductList products={products} setProducts={setProducts} />
             </div>
 
         </div>
