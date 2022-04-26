@@ -19,7 +19,7 @@ export default function Products() {
             plan: '5',
             status: 'Active',
             icon: server_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,
@@ -75,7 +75,7 @@ export default function Products() {
             plan: '2',
             status: 'Active',
             icon: maintainance_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,
@@ -131,7 +131,7 @@ export default function Products() {
             plan: '3',
             status: 'Active',
             icon: world_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,
@@ -187,7 +187,7 @@ export default function Products() {
             plan: '8',
             status: 'Active',
             icon: performance_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,
@@ -243,7 +243,7 @@ export default function Products() {
             plan: '1',
             status: 'Active',
             icon: bug_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,
@@ -299,7 +299,7 @@ export default function Products() {
             plan: '1',
             status: 'Active',
             icon: operator_icon,
-            showPlan: true,
+            showPlan: false,
             plans: [
                 {
                     id: 1,

@@ -8,8 +8,100 @@
         color: #000000;
     }
 
-    td,
-    th {
-        text-align: left;
+    &__item {
+
+        &__header,
+        &__content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 0px;
+            border-bottom: 1px solid #E6E6E6;
+
+            li {
+                &:first-child {
+                    width: 470px;
+                }
+
+                &:nth-child(2) {
+                    width: 120px;
+                }
+
+                &:nth-child(3) {
+                    width: 120px;
+                }
+
+                &:last-child {
+                    width: 220px;
+                }
+            }
+
+        }
+
+        &__content {
+            .action {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .show-hide-btn {
+                    background-color: transparent;
+                    border: none;
+                    color: #286EF1;
+                    font-size: 15px;
+                    line-height: 30px;
+                    letter-spacing: 0.26px;
+                }
+
+                .dots {
+                    cursor: pointer;
+                    background: transparent;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover {
+                        background: #EDEDED;
+                    }
+                }
+
+                .hover {
+                    position: absolute;
+                }
+            }
+
+            li {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                letter-spacing: 0.26px;
+                color: #555555;
+            }
+
+            .name-with-icon {
+                display: flex;
+                align-items: center;
+
+                img {
+                    background: #E3EAF9;
+                    border-radius: 4px;
+                    padding: 12px;
+                }
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 30px;
+                    letter-spacing: 0.26px;
+                    color: #000000;
+                    margin-left: 20px;
+                }
+            }
+        }
     }
+
+
 }
