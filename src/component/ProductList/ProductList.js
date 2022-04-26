@@ -1,6 +1,8 @@
 import React from 'react'
 import './ProductList.scss';
 import arrow_icon from '../../img/arrow.svg';
+import ProductPlan from '../ProductPlan/ProductPlan';
+
 export default function ProductList(props) {
     const { products, setProducts } = props;
     function archiveProduct(id) {
@@ -16,6 +18,15 @@ export default function ProductList(props) {
         const newProducts = products.map(product => {
             if (product.id === id) {
                 product.status = 'Active';
+            }
+            return product;
+        });
+        setProducts(newProducts);
+    }
+    function showhideProductPlan(id) {
+        const newProducts = products.map(product => {
+            if (product.id === id) {
+                product.showPlan = !product.showPlan;
             }
             return product;
         });
@@ -47,10 +58,13 @@ export default function ProductList(props) {
                                 {product.plan}
                             </td>
                             <td>
+                                <button onClick={() => showhideProductPlan(product.id)}>{product.showPlan ? 'Show Plans' : 'Hide Plans'}</button>
                                 <button onClick={() => archiveProduct(product.id)}>Archive</button>
                                 <button onClick={() => unarchiveProduct(product.id)}>Unrchive</button>
                             </td>
+                            <td>{!product.showPlan && <ProductPlan plans={product.plans} />}</td>
                         </tr>
+
                     ))}
                 </tbody>
 

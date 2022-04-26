@@ -19,6 +19,7 @@ export default function Products() {
             plan: '5',
             status: 'Active',
             icon: server_icon,
+            showPlan: true,
             plans: [
                 {
                     id: 1,
@@ -73,35 +74,280 @@ export default function Products() {
             name: 'WordPress Site Maintenance',
             plan: '2',
             status: 'Active',
-            icon: maintainance_icon
+            icon: maintainance_icon,
+            showPlan: true,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
         {
             id: 3,
             name: 'Domain Subscription',
             plan: '3',
             status: 'Active',
-            icon: world_icon
+            icon: world_icon,
+            showPlan: true,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
         {
             id: 4,
             name: 'Performance Optimization',
             plan: '8',
             status: 'Active',
-            icon: performance_icon
+            icon: performance_icon,
+            showPlan: true,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
         {
             id: 5,
             name: 'Troubleshooting - Hourly Basis',
             plan: '1',
             status: 'Active',
-            icon: bug_icon
+            icon: bug_icon,
+            showPlan: true,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
         {
             id: 6,
             name: 'Consultation - Hourly Basis',
             plan: '1',
             status: 'Active',
-            icon: operator_icon
+            icon: operator_icon,
+            showPlan: true,
+            plans: [
+                {
+                    id: 1,
+                    name: 'Bronze - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 2,
+                    name: 'Silver - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 3,
+                    name: 'Gold - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 4,
+                    name: 'Platinum - Monthly',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                },
+                {
+                    id: 5,
+                    name: 'Setup Fee',
+                    billing: 'Recurring',
+                    price: '15.00',
+                    period: '1 Month',
+                    billin_cycle: '',
+                    status: 'Active',
+                }
+
+            ]
         },
 
     ]);
