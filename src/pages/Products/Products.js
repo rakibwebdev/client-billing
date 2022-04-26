@@ -19,7 +19,9 @@ export default function Products() {
             plan: '5',
             status: 'Active',
             icon: server_icon,
+            iconBG: '#E3EAF9',
             showPlan: false,
+            isClicked: false,
             plans: [
                 {
                     id: 1,
@@ -29,6 +31,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -38,6 +41,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -47,6 +51,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -56,6 +61,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -65,6 +71,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
@@ -75,7 +82,9 @@ export default function Products() {
             plan: '2',
             status: 'Active',
             icon: maintainance_icon,
+            iconBG: '#B6D7B9',
             showPlan: false,
+            isClicked: false,
             plans: [
                 {
                     id: 1,
@@ -85,6 +94,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -94,6 +104,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -103,6 +114,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -112,6 +124,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -121,6 +134,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
@@ -131,7 +145,9 @@ export default function Products() {
             plan: '3',
             status: 'Active',
             icon: world_icon,
+            iconBG: '#ECE5F0',
             showPlan: false,
+            isClicked: false,
             plans: [
                 {
                     id: 1,
@@ -141,6 +157,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -150,6 +167,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -159,6 +177,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -168,6 +187,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -177,6 +197,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
@@ -187,7 +208,9 @@ export default function Products() {
             plan: '8',
             status: 'Active',
             icon: performance_icon,
+            iconBG: '#F4C095',
             showPlan: false,
+            isClicked: false,
             plans: [
                 {
                     id: 1,
@@ -197,6 +220,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -206,6 +230,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -215,6 +240,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -224,6 +250,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -233,6 +260,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
@@ -244,6 +272,8 @@ export default function Products() {
             status: 'Active',
             icon: bug_icon,
             showPlan: false,
+            isClicked: false,
+            iconBG: '#FFC0BE',
             plans: [
                 {
                     id: 1,
@@ -253,6 +283,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -262,6 +293,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -271,6 +303,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -280,6 +313,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -289,6 +323,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
@@ -299,7 +334,9 @@ export default function Products() {
             plan: '1',
             status: 'Active',
             icon: operator_icon,
+            iconBG: '#FDFCDC',
             showPlan: false,
+            isClicked: false,
             plans: [
                 {
                     id: 1,
@@ -309,6 +346,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 2,
@@ -318,6 +356,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 3,
@@ -327,6 +366,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 4,
@@ -336,6 +376,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 },
                 {
                     id: 5,
@@ -345,6 +386,7 @@ export default function Products() {
                     period: '1 Month',
                     billin_cycle: '',
                     status: 'Active',
+                    isClicked: false,
                 }
 
             ]
